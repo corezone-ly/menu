@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(135deg, #1f1f1f, #000);
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.section {
+  padding: 15px;
+}
+
+.section-title {
+  color: #00ffcc;
+  margin: 20px 0 10px;
+  font-size: 18px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.price {
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>اسم الكافيه</h1>
+  <p>Digital Menu</p>
+</div>
+
+<div class="section">
+
+  <div class="section-title">المشروبات</div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/60">
+    <div class="info">
+      <div class="name">قهوة</div>
+    </div>
+    <div class="price">5 د</div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/60">
+    <div class="info">
+      <div class="name">كابتشينو</div>
+    </div>
+    <div class="price">7 د</div>
+  </div>
+
+  <div class="section-title">الأكل</div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/60">
+    <div class="info">
+      <div class="name">برجر</div>
+    </div>
+    <div class="price">15 د</div>
+  </div>
+
+</div>
+
+</body>
+</html>
